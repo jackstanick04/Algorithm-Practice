@@ -10,7 +10,7 @@ def merge (left, right) :
 
     # loop through while both of the counters are less than the length of their half
     while counter1 < len(left) and counter2 < len(right) :
-        # check which is bigger, add that to the new array, and increment that counter (each side is already sorted)
+        # check which is smaller, add that to the new array, and increment that counter (each side is already sorted)
         if left[counter1] <= right[counter2] :
             finalArr.append(left[counter1])
             counter1 += 1
