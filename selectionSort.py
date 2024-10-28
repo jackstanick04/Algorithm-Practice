@@ -24,3 +24,5 @@ data = [1, 3, 15, 4, 7, 18, 99, 98]
 print(selectionSort(data))
 
 
+
+
