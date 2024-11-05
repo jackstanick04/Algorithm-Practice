@@ -30,3 +30,6 @@ def binarySearch (low, high, arr, target) :
 
 data = [2, 3, 5, 9, 78]
 print(expSearch(data, 5))
+
+
+1, 3, 5, 7, 8, 11, 12

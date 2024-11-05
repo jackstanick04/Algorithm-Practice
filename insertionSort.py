@@ -16,5 +16,5 @@ def insertionSort (data) :
             index2 -= 1
     return data
 
-data = [1, 14, 3, 2, 15, 77, 0]
+data = [15, 2, 13, 7, 18, 7, 17, 9]
 print(insertionSort(data))
